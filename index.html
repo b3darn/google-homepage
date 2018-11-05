@@ -10,27 +10,38 @@
   </head>
 
   <body>
-      <div class="grid"> 
+    <div id="container">
+      <div class="top"> 
         <div class="about"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwijm7TL4bPeAhXYFjQIHTVTDhoQkNQCCAM&url=%2Fintl%2Fen%2Fabout%2F%3Ffg%3D1%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&usg=AOvVaw30mAwAmrgjdqT0CFsYmaji">About</a></div>
         <div class="store"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwijm7TL4bPeAhXYFjQIHTVTDhoQpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2F%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_oo%26utm_campaign%3DGS100042&usg=AOvVaw0klweobGSi20iSKV1DeFH9">Store</a></div>
-        <div></div>
         <div class="gmail"><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></div>
         <div class=images><a href="https://www.google.com/imghp?hl=en&tab=wi">Images</a></div>
         <!-- image in chart class needs to be 30% height - assigning to .chart isn't working -->
-        <div class="chart"><a href="https://www.google.com/intl/en/options/"><img src="https://www.shareicon.net/data/128x128/2015/09/12/99848_apps_512x512.png" /></a></div>
-        <div class="sign_in"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" >Sign</a></div>
+        <div class="chart"><a href="https://www.google.com/intl/en/options/"><img class="image" src="https://www.shareicon.net/data/128x128/2015/09/12/99848_apps_512x512.png" /></a></div>
+        <div><a class="sign" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/" >Sign in</a></div>
       </div>
-      <div>
-        <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" /> </div>
-        
+      <div class="middle">
+        <div class="logo"><img class="google_logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" /> </div>
         <div class="form">
-            <form>
+            <form class="form1">
                 <input type="text" id="form">
             </form>
+            <div class="form_buttons">
+              <div id="search">Google Search</div>
+              <div id="lucky">I'm Feeling Lucky</div>
+            </div>
         </div>
-        <!-- "Google Search" & "I'm Feeling Lucky Buttons" links not needed-->
       </div>
-
+      <div class="bottom">
+        <ul>
+          <li class="row1"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+          <li class="row2"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+          <li class=row3><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a></li>
+          <li class=row4><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a></li>
+          <li class=row5><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+        </ul>
+      </div>
+    </div>
   </body>
 
 
