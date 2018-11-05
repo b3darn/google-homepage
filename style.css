@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: white;
     font-family: arial, sans-serif;
@@ -9,8 +14,10 @@ body {
 
 #container {
     min-height: 100%;
-    position: relative;
+    max-height: 100%;
+    position: absolute;
 }
+
 a { 
     color: black;
     text-decoration: none;
@@ -91,12 +98,12 @@ a {
 }
 
 .middle {
-    position: relative;
-    top: 190px;
+    position: fixed;
     align-content: center;
     width: 100%;
-    min-height: 500px;
-    padding: 0px 0px 35px 0px;
+    min-height: 300px;
+    padding: 190px 0px 0px 0px;
+    margin-bottom: 35px;
 }
 
 .logo {
@@ -176,7 +183,6 @@ a {
 
 .bottom {
     position: absolute;
-    right: 0;
     bottom: 0;
     left: 0;
     background-color: #efefef;
@@ -187,6 +193,7 @@ a {
     border-top-color: #757575;
     border-top-style: solid;
     border-top-width: 1px;
+    display: block;
 }
 
 ul {
